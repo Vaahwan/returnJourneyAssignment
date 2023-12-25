@@ -46,3 +46,16 @@ If given id exist then you will get details of updated product otherwise will ge
 ### DELETE /products/:id 
 make a DELETE request on localhost:3050/products/id
 If given id exist then you will get details of deleted product otherwise will get 404 error "product not found"
+
+## Task 5
+node Task5.js
+Now, you can send any request on localhost:3000/ on thunderclint or nodemon
+Whenever you will make request in console you will get following details
+timeStamp
+HTTP method
+requested URL
+
+## Task 6
+This is test file for Task4.js. To run this first install jest and then you can run this command
+npx jest Task6.test.js
+You can see all the test cases getting passed
